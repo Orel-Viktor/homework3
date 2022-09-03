@@ -1,13 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+
+  <!-- сложение -->
+
+ <div style="background: aqua;">
+  <p><input type="text" id="sumA"></p>
+  <p><input type="text" id="sumB"></p>
+  <p><input type="text" id="sumResult"></p>
+  <p><input type="button" value="Сложить" onclick="addition()"></p>
+ </div>
+
+
+<!-- вычитание -->
+
+ <div style="background: green;">
+  <p><input type="text" id="subA"></p>
+  <p><input type="text" id="subB"></p>
+  <p><input type="text" id="subResult"></p>
+  <p><input type="button" value="Вычесть" onclick="subtraction()"></p>
+ </div>
+
+ <!-- умножение -->
+
+ <div style="background: blueviolet;">
+  <p><input type="text" id="mulA"></p>
+  <p><input type="text" id="mulB"></p>
+  <p><input type="text" id="mulResult"></p>
+  <p><input type="button" value="Умножить" onclick="multiplication()"></p>
+ </div>
+
+ <!-- деление -->
+ <div style="background: rgb(73, 182, 31);">
+  <p><input type="text" id="divA"></p>
+  <p><input type="text" id="divB"></p>
+  <p><input type="text" id="divResult"></p>
+  <p><input type="button" value="Делить" onclick="division()"></p>
+ </div>
+
+ <script  src="/main.js"></script>
+</body>
+
 </html>
